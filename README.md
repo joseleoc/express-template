@@ -3,7 +3,6 @@ This project serves as a template for building a backend using Node.js with Expr
 
 ## Main Functionalities
 
-- **User Authentication**: Implement standard user authentication strategies using JWT tokens.
 - **API Routing**: Organized and modular routing system for easy scalability and maintenance.
 - **Error Handling**: Centralized error handling to manage application errors smoothly.
 - **Logging**: Provides logging functionality for monitoring requests and debugging.
@@ -17,10 +16,7 @@ This project serves as a template for building a backend using Node.js with Expr
 
 ## Utilities
 
-- **JWT Utility**: Functions for generating and verifying JSON Web Tokens for authentication.
-- **Password Hashing**: Utility to hash and validate passwords using bcrypt.
 - **Environment Configuration**: Easy environment configuration management using dotenv.
-- **Database Connection**: Simplified database connection setup using a singleton pattern.
 
 ## Getting Started
 
@@ -33,11 +29,11 @@ This project serves as a template for building a backend using Node.js with Expr
 
 1. Clone the repository:
   ```sh
-  git clone https://github.com/yourusername/condomain-backend-template.git
+  git clone https://github.com/joseleoc/express-template.git
   ```
 2. Navigate into the project directory:
   ```sh
-  cd condomain-backend-template
+  cd express-template
   ```
 3. Install the dependencies:
   ```sh
@@ -47,6 +43,7 @@ This project serves as a template for building a backend using Node.js with Expr
 ### Running the Project
 
 1. Create a `.env` file in the root directory and configure the necessary environment variables.
+
 2. Start the server:
   ```sh
   npm start
@@ -59,6 +56,25 @@ For development purposes, you can use:
 npm run dev
 ```
 This command uses nodemon to automatically restart the server on file changes.
+
+## Testing
+
+The project is set up with a testing framework for unit and integration tests.
+
+### Running Tests
+
+1. Ensure that all required environment variables are set.
+2. Run the tests using:
+  ```sh
+  npm test
+  ```
+This command will execute all tests in the `tests` directory.
+
+### Testing Framework
+
+- Uses Jest as the primary testing framework.
+- Supertest is used for testing HTTP endpoints.
+
 
 ## Contributing
 
