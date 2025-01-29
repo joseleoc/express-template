@@ -63,5 +63,7 @@ app.use(
 
 
 // Routes
-
 app.use("/example", ExampleRoutes);
+app.get("/", (req, res) => {
+    res.status(200).json({ message: "Hello world!" });
+});

@@ -20,10 +20,12 @@ This project serves as a template for building a backend using Node.js with Expr
 
 ## Getting Started
 
-### Prerequisites
+For a detailed guide on how to use this template with Docker, please refer to the [Docker Quick Start Guide](docs/quickstart-docker.md).
 
-- Node.js (version 14 or later)
-- npm package manager
+
+For a detailed guide on how to use this template with nodejs, please refer to the [Nodejs Quick Start Guide](docs/quickstart-node.md).
+
+
 
 ### Installation
 
@@ -68,7 +70,7 @@ The project is set up with a testing framework for unit and integration tests.
   ```sh
   npm test
   ```
-This command will execute all tests in the `tests` directory.
+This command will execute all tests in the project.
 
 ### Testing Framework
 
