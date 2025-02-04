@@ -1,0 +1,12 @@
+
+services:
+  app:
+    build: .
+    ports: 
+      - $PORT:$PORT
+    volumes:
+      - ./src:/app/src
+      - /app/node_modules
+    restart: always
+
+    
